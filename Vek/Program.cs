@@ -10,14 +10,16 @@ namespace Vek
             double narozeni = 0;
             double rok;
             double vypocet = 0;
-
+            
             Console.CursorVisible = false;
             Console.SetCursorPosition(10, 10);
             Console.WriteLine();
             Console.SetCursorPosition(10, 11);
             Console.WriteLine();
             Console.WriteLine();
+          Console.WriteLine("╔═══════════════════════════╗");
             Console.WriteLine("Write your year of birth:");
+          Console.WriteLine("╚═══════════════════════════╝");   
             double.TryParse(Console.ReadLine(), out narozeni );
             if (narozeni < 1912)
             {
