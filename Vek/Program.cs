@@ -17,9 +17,9 @@ namespace Vek
             Console.SetCursorPosition(10, 11);
             Console.WriteLine();
             Console.WriteLine();
-          Console.WriteLine("╔═══════════════════════════╗");
-            Console.WriteLine("Write your year of birth:");
-          Console.WriteLine("╚═══════════════════════════╝");   
+          Console.WriteLine("╔════════════════════════╗");
+          Console.WriteLine("║Write your year of birth║:");
+          Console.WriteLine("╚════════════════════════╝");   
             double.TryParse(Console.ReadLine(), out narozeni );
             if (narozeni < 1912)
             {
